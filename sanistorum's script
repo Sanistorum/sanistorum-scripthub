@@ -28,7 +28,7 @@ MainSection:NewButton("worm", "become sneke??? (rel)", function()
 end)
 
 
-MainSection:NewSlider("RUN SPED", "THE FLASH CAMERAMAN MODE", 100000, 10, function(s)
+MainSection:NewSlider("RUN SPED", "THE FLASH CAMERAMAN MODE", 1000, 10, function(s)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
