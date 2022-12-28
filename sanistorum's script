@@ -41,8 +41,3 @@ end)
 MainSection:NewButton("doors crucifix (read desc)", "ONLY USE IN DOORS (credits to zepsyy)", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua'))()
 end)
-
-
-MainSection:NewButton("doors crucifix 2 (read desc)", "ONLY USE IN DOORS btw this is the figure crucifix (credits to zepsyy)", function()
-   loadstring(game:HttpGet("https://pastebin.com/Li8GnTHL"))()
-end)
