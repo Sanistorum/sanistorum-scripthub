@@ -36,3 +36,8 @@ end)
 MainSection:NewButton("admin cmd", "do anything you wanted in life", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
+
+MainSection:NewButton("doors crucifix (read desc)", "ONLY USE IN DOORS", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua'))()
+end)
