@@ -41,3 +41,8 @@ end)
 MainSection:NewButton("doors crucifix (read desc)", "ONLY USE IN DOORS (credits to zepsyy)", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilities/main/Doors/Crucifix.lua'))()
 end)
+
+
+MainSection:Newbutton("doors entity spawner", "credit to plamenrock6789", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
+end)
