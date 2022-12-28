@@ -36,8 +36,3 @@ end)
 MainSection:NewButton("admin cmd", "do anything you wanted in life", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-
-
-MainSection:NewButton("Teleport", "tool in inventory", function()
-   loadstring(game:HttpGet('https://pastebin.com/xkFmnfKD'))()
-end)
