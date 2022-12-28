@@ -1,0 +1,43 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xheptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("sanistorum's script hub", "GrapeTheme")
+
+local Main = Window:NewTab("items and more")
+
+local MainSection = Main:NewSection("items and more")
+
+MainSection:NewButton("doritos", "eat them fatty.", function()
+   local Item = game:GetObjects("rbxassetid://5125348322") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("soda", "drink if you need drink", function()
+   local Item = game:GetObjects("rbxassetid://66071183") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("stop sign", "tell someone to stop", function()
+   local Item = game:GetObjects("rbxassetid://1305561850") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("worm", "become sneke??? (rel)", function()
+   loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+end)
+
+
+MainSection:NewSlider("RUN SPED", "THE FLASH CAMERAMAN MODE", 100000, 10, function(s)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+
+MainSection:NewButton("admin cmd", "do anything you wanted in life", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+MainSection:NewButton("Teleport", "tool in inventory", function()
+   loadstring(game:HttpGet('https://pastebin.com/xkFmnfKD'))()
+end)
