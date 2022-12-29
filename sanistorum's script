@@ -54,5 +54,24 @@ end)
 
 
 MainSection:NewButton("Fake IP Grabber", "troll kids", function()
-   loadstring:HttpGet("https://pastebin.com/3uHfkQwS"))()
+   game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Cracking Location..." ,"All")
+ 
+wait(3)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Getting Client's IP..." ,"All")
+ 
+wait(2)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Loading... Please Wait!" ,"All")
+ 
+ 
+wait(1)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Data Has Been Successfully Stolen" ,"All")
+ 
+wait(2)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Successfully Got The Location..." ,"All")
+ 
+wait(1)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("LOCATION: Successfully Logged" ,"All")
+ 
+wait(2)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Leaked Location: DOWN IN OHIO" ,"All")
 end)
