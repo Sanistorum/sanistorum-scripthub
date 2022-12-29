@@ -46,3 +46,8 @@ end)
 MainSection:NewButton("doors entity spawner", "ONLY USE IN DOORS (credits to plamenrock6789)", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/DoorsEntitySummonerGUI/main/EntityGUI'))()
 end)
+
+
+MainSection:NewSlider("Gravity", "Gives you more jump power.", 350, 50, function(s)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
