@@ -54,12 +54,12 @@ end)
 
 
 MainSection:NewButton("Pizza Box", "wonder whats inside..", function()
-   localItem = game:GetObjects("rbxassetid://4533662269") [1]
+   local Item = game:GetObjects("rbxassetid://4533662269") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 
 MainSection:NewButton("Pizza", "eat it. NOW.", function()
-   localItem = game:GetObjects("rbxassetid://175696937") [1]
+   local Item = game:GetObjects("rbxassetid://175696937") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
