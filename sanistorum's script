@@ -63,3 +63,8 @@ MainSection:NewButton("Pizza", "eat it. NOW.", function()
    local Item = game:GetObjects("rbxassetid://175696937") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton ("Mobile Keyboard", "Gives mobile users a keyboard", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
