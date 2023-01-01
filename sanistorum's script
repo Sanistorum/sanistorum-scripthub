@@ -68,8 +68,3 @@ end)
 MainSection:NewButton ("Mobile Keyboard", "Gives mobile users a keyboard", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
-
-
-MainSection:NewButton("NPC Controller", "Lets you control NPCs.", function()
-   loadstring:game:HttpGet("https://controlc.com/04a38455"))()
-end)
