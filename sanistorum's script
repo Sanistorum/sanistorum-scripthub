@@ -68,3 +68,8 @@ end)
 MainSection:NewButton ("Mobile Keyboard", "Gives mobile users a keyboard", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
+
+
+MainSection:NewButton("Doors Hardcore Mode", "make doors impossible", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/HardcoreScriptDOORS/main/HardcoreModeScript'))()
+end)
