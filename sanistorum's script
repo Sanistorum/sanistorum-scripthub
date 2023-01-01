@@ -73,3 +73,8 @@ end)
 MainSection:NewButton("Doors Hardcore Mode", "make doors impossible", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/HardcoreScriptDOORS/main/HardcoreModeScript'))()
 end)
+
+
+MainSection:NewKeybind("toggle GUI (L)", "KeybindInfo", Enum.KeyCode.L, function()
+	Library:ToggleUI()
+end)
