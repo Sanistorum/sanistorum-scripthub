@@ -75,6 +75,6 @@ MainSection:NewButton("Doors Hardcore Mode", "make doors impossible", function()
 end)
 
 
-MainSection:NewKeybind("toggle GUI (L)", "KeybindInfo", Enum.KeyCode.L, function()
+MainSection:NewKeybind("toggle GUI (L)", "toggles the GUI on and off", Enum.KeyCode.L, function()
 	Library:ToggleUI()
 end)
