@@ -84,3 +84,9 @@ MainSection:NewButton("Mine Paper", "get the all new mine paper", function()
    local Item = game:GetObjects("rbxassetid://5237472570") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Sign 1", "Gigachad Sign", function()
+   local Item = game:GetObjects("rbxassetid://12046307295") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
