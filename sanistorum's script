@@ -78,3 +78,9 @@ end)
 MainSection:NewKeybind("toggle GUI (L)", "toggles the GUI on and off", Enum.KeyCode.L, function()
 	Library:ToggleUI()
 end)
+
+
+MainSection:NewButton("Mine Paper", "get the all new mine paper", function()
+   local Item = game.GetObjects("rbxassetid://5237472570") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
