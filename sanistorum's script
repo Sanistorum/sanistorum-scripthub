@@ -2,6 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xhept
 local Window = Library.CreateLib("sanistorum's script hub", "DarkTheme")
 
 local Main = Window:NewTab("items and more")
+local Main = Window:NewTab("btw items aren't FE")
 
 local MainSection = Main:NewSection("items and more")
 
