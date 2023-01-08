@@ -104,3 +104,9 @@ MainSection:NewButton("Takis", "extreme spice challenge", function()
    local Item = game:GetObjects("rbxassetid://393267857") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Die script", "Recommended to use in doors.", function()
+wait(0)
+   firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, {"GET TROLLED KID", "IMAGINE DYING"})
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
