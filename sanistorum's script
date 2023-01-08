@@ -98,3 +98,9 @@ MainSection:NewButton("M&M item", "eminem", function()
    local Item = game:GetObjects("rbxassetid://12061629639") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Takis", "extreme spice challenge", function()
+   local Item = game:GetObjects("rbxassetid://393267857") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
