@@ -106,6 +106,6 @@ Item.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 
-MainSection:NewButton("Die script", "Recommended to use in doors.", function()
+MainSection:NewButton("Die script (FOR DOORS)", "ONLY WORKS IN DOORS", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/2RN1cUJH"))()
 end)
