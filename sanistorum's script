@@ -109,3 +109,8 @@ end)
 MainSection:NewButton("Die script (FOR DOORS)", "ONLY WORKS IN DOORS", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/2RN1cUJH"))()
 end)
+
+
+Section:NewKeybind("Die script (FOR DOORS)", "die script keybind", Enum.KeyCode.M, function()
+loadstring(game:HttpGet("https://pastebin.com/raw/2RN1cUJH"))()
+end)
