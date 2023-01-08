@@ -114,3 +114,8 @@ end)
 MainSection:NewKeybind("Die script (FOR DOORS)", "die script keybind", Enum.KeyCode.M, function()
 loadstring(game:HttpGet("https://pastebin.com/raw/2RN1cUJH"))()
 end)
+
+
+MainSection:NewButton("Old Seek Model (Doors)", "The old seek chase model.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eugti3gC"))()
+end)
