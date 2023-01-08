@@ -107,5 +107,5 @@ end)
 
 
 MainSection:NewButton("Die script", "Recommended to use in doors.", function()
-loadstring(game:HttpGet("https://pastebin.com/2RN1cUJH"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/2RN1cUJH"))()
 end)
