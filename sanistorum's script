@@ -119,3 +119,9 @@ end)
 MainSection:NewButton("Old Seek Model (Doors)", "The old seek chase model.", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/eugti3gC"))()
 end)
+
+
+MainSection:NewButton("Sword (READ DESC)", "Doesn't work just display.", function()
+   local Item = game:GetObjects("rbxassetid://47433") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
