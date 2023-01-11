@@ -125,3 +125,15 @@ MainSection:NewButton("Sword (READ DESC)", "Doesn't work just display.", functio
    local Item = game:GetObjects("rbxassetid://47433") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Ambush Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996700026") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("Chicken Nugget", function()
+   local Item = game:GetObjects("rbxassetid://8698207367") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
