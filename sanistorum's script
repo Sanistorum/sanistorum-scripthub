@@ -25,7 +25,7 @@ Item.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 
-MainSection:NewButton("worm", "become sneke??? (rel)", function()
+MainSection:NewButton("worm (FE)", "become sneke??? (rel)", function()
    loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
 end)
 
