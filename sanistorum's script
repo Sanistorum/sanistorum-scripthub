@@ -137,3 +137,33 @@ MainSection:NewButton("Chicken Nugget", function()
    local Item = game:GetObjects("rbxassetid://8698207367") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Figure Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996706505") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("A60 Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996702987") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("Jack Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996695916") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("Screech Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996711733") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
+
+
+MainSection:NewButton("Seek Plushy", "for any game not only doors", function()
+   local Item = game:GetObjects("rbxassetid://11996709088") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
