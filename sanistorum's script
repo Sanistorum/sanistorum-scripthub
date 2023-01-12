@@ -167,3 +167,8 @@ MainSection:NewButton("Seek Plushy", "for any game not only doors", function()
    local Item = game:GetObjects("rbxassetid://11996709088") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Figure Crucifix (DOORS), "only for doors", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/yPCLyNaZ"))()
+end)
