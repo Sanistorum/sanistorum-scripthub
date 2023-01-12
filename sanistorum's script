@@ -133,7 +133,7 @@ Item.Parent = game.Players.LocalPlayer.Backpack
 end)
 
 
-MainSection:NewButton("Chicken Nugget", function()
+MainSection:NewButton("Chicken Nugget", "do u want free chicken nugget", function()
    local Item = game:GetObjects("rbxassetid://8698207367") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
