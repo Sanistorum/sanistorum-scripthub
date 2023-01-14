@@ -178,3 +178,9 @@ MainSection:NewKeybind("Screech Plushy", "screech but its a keybind", Enum.KeyCo
    local Item = game:GetObjects("rbxassetid://11996711733") [1]
 Item.Parent = game.Players.LocalPlayer.Backpack
 end)
+
+
+MainSection:NewButton("Rebound Plushy", "Rebound Plushy", function()
+   local Item = game:GetObjects("rbxassetid://12047184377") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
