@@ -172,3 +172,9 @@ end)
 MainSection:NewButton("Figure Crucifix", "Gives you the figure crucifix", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yPCLyNaZ"))()
 end)
+
+
+MainSection:NewKeybind("Screech Plushy", "screech but its a keybind", Enum.KeyCode.V, function()
+   local Item = game:GetObjects("rbxassetid://11996711733") [1]
+Item.Parent = game.Players.LocalPlayer.Backpack
+end)
